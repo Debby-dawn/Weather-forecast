@@ -1,4 +1,4 @@
-/*  Full Screen Layout Centering Base */
+
 body {
     margin: 0;
     padding: 0;
@@ -101,4 +101,10 @@ body {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 1px; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
